@@ -39,4 +39,5 @@ int main(){
             printf("Данные некорректны");
             break;
     }
+    return 0;
 }
