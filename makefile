@@ -1,7 +1,7 @@
-all: prog
+all: menu
 
-prog: menu.o sum.o sum.h diff.o diff.h abs_max.o abs_max.h abs_min.o abs_min.h
-	gcc menu.o sum.o diff.o abs_max.o abs_min.o -o prog
+menu: menu.o sum.o sum.h diff.o diff.h abs_max.o abs_max.h abs_min.o abs_min.h
+	gcc menu.o sum.o diff.o abs_max.o abs_min.o -o menu
 	make clean
 
 menu.o: menu.c sum.h diff.h abs_max.h abs_min.h
