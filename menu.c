@@ -24,19 +24,19 @@ int main(){
     n++;
     switch (start){
         case 0:
-            printf("%d", abs_max(lst,n));
+            printf("%d\n", abs_max(lst,n));
             break;
         case 1:
-            printf("%d", abs_min(lst,n));
+            printf("%d\n", abs_min(lst,n));
             break;
         case 2:
-            printf("%d", diff(lst,n));
+            printf("%d\n", diff(lst,n));
             break;
         case 3:
-            printf("%d", sum(lst,n));
+            printf("%d\n", sum(lst,n));
             break;
         default:
-            printf("Данные некорректны");
+            printf("Данные некорректны\n");
             break;
     }
     return 0;
